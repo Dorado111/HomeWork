@@ -53,4 +53,7 @@ foreach($words1 as $word){
 }
 echo $word2.'<br><br>';
 
-echo "5-ое задание<br>";
+echo "5-ое задание<br>"; // сделал с опозданием (02.11.2020)
+echo ('Количество прописных букв'.'-'.(mb_strlen( preg_replace('/[^A-ZА-ЯЁ]/u', '', $tmp))).'<br>');
+
+echo ('Количество строчных букв'.'-'.(mb_strlen( preg_replace('/[^a-zа-яё]/u', '', $tmp))).'<br>');
