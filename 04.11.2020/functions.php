@@ -56,8 +56,6 @@ function func3($text)
 function func4($text)
 {
     $text = "     Mom washed the frame.   ";
-    $text = trim($text);
-    $text = preg_replace("/\s{2,}/", ' ', $text);
     $words1 = explode(' ', $text);
 
     $word1 = 0;
