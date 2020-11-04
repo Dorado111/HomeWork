@@ -1,4 +1,5 @@
 <form action="" method="POST">
+    <input type="text" name="text">
     <select name="funcName">
         <option value="func1">Задание 1</option>
         <option value="func2">Задание 2</option>
